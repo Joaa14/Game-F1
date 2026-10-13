@@ -1,0 +1,9 @@
+{
+  "name": "jpedg3d-server",
+  "version": "1.0.0",
+  "description": "Online multiplayer server for JPEDG3D (rooms, lobby, state relay)",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" },
+  "dependencies": { "ws": "^8.17.0" }
+}
